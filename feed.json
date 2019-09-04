@@ -1,0 +1,27 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "petrenko.dk",
+    "description": "",
+    "home_page_url": "https://petrenko.dk",
+    "feed_url": "https://petrenko.dk/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Roman Petrenko"
+    },
+    "items": [
+        {
+            "id": "https://petrenko.dk/hello-world.html",
+            "url": "https://petrenko.dk/hello-world.html",
+            "title": "Hello world",
+            "summary": "Time to make change let i = 10; ",
+            "content_html": "<p>Time to make change</p>\n<p><code>let i = 10;</code></p>\n<p> </p>\n<script src=\"https://gist.github.com/salesmandesk/045acfcf3f67630aca1ce8962d063910.js\"></script>",
+            "author": {
+                "name": "Roman Petrenko"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-08-11T20:48:56+02:00",
+            "date_modified": "2019-09-04T21:28:24+02:00"
+        }
+    ]
+}

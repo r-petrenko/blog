@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>petrenko.dk</title>
+    <link href="https://petrenko.dk/feed.xml" rel="self" />
+    <link href="https://petrenko.dk" />
+    <updated>2019-09-04T21:33:57+02:00</updated>
+    <author>
+        <name>Roman Petrenko</name>
+    </author>
+    <id>https://petrenko.dk</id>
+
+    <entry>
+        <title>Hello world</title>
+        <author>
+            <name>Roman Petrenko</name>
+        </author>
+        <link href="https://petrenko.dk/hello-world.html"/>
+        <id>https://petrenko.dk/hello-world.html</id>
+
+        <updated>2019-09-04T21:28:24+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Time to make change let i = 10; 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Time to make change</p>
+<p><code>let i = 10;</code></p>
+<p> </p>
+<script src="https://gist.github.com/salesmandesk/045acfcf3f67630aca1ce8962d063910.js"></script>
+            ]]>
+        </content>
+    </entry>
+</feed>
