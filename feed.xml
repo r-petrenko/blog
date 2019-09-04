@@ -3,12 +3,24 @@
     <title>petrenko.dk</title>
     <link href="https://petrenko.dk/feed.xml" rel="self" />
     <link href="https://petrenko.dk" />
-    <updated>2019-09-04T22:05:44+02:00</updated>
+    <updated>2019-09-04T22:16:46+02:00</updated>
     <author>
         <name>Roman Petrenko</name>
     </author>
     <id>https://petrenko.dk</id>
 
+    <entry>
+        <title>Tips and tricks</title>
+        <author>
+            <name>Roman Petrenko</name>
+        </author>
+        <link href="https://petrenko.dk/tips-and-tricks/"/>
+        <id>https://petrenko.dk/tips-and-tricks/</id>
+
+        <updated>2019-09-04T22:16:32+02:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
     <entry>
         <title>Azure post test</title>
         <author>

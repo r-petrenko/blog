@@ -10,6 +10,18 @@
     },
     "items": [
         {
+            "id": "https://petrenko.dk/tips-and-tricks/",
+            "url": "https://petrenko.dk/tips-and-tricks/",
+            "title": "Tips and tricks",
+            "author": {
+                "name": "Roman Petrenko"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-09-04T22:16:24+02:00",
+            "date_modified": "2019-09-04T22:16:32+02:00"
+        },
+        {
             "id": "https://petrenko.dk/azure-post-test/",
             "url": "https://petrenko.dk/azure-post-test/",
             "title": "Azure post test",
