@@ -3,7 +3,7 @@
     <title>petrenko.dk</title>
     <link href="https://petrenko.dk/feed.xml" rel="self" />
     <link href="https://petrenko.dk" />
-    <updated>2019-09-04T21:54:28+02:00</updated>
+    <updated>2019-09-04T21:55:31+02:00</updated>
     <author>
         <name>Roman Petrenko</name>
     </author>
@@ -17,9 +17,19 @@
         <link href="https://petrenko.dk/azure-post-test.html"/>
         <id>https://petrenko.dk/azure-post-test.html</id>
 
-        <updated>2019-09-04T21:54:16+02:00</updated>
-            <summary></summary>
-        <content></content>
+        <updated>2019-09-04T21:55:25+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://petrenko.dk/media/posts/2/brennan-burling-1473464-unsplash-2xl.jpg" alt="" />
+                    asdfasdf
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://petrenko.dk/media/posts/2/brennan-burling-1473464-unsplash-2xl.jpg" alt="" />
+                asdfasdf
+            ]]>
+        </content>
     </entry>
     <entry>
         <title>Hello world</title>

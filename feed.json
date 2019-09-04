@@ -13,13 +13,16 @@
             "id": "https://petrenko.dk/azure-post-test.html",
             "url": "https://petrenko.dk/azure-post-test.html",
             "title": "Azure post test",
+            "summary": "asdfasdf",
+            "content_html": "asdfasdf",
+            "image": "https://petrenko.dk/media/posts/2/brennan-burling-1473464-unsplash-2xl.jpg",
             "author": {
                 "name": "Roman Petrenko"
             },
             "tags": [
             ],
             "date_published": "2019-09-04T21:54:16+02:00",
-            "date_modified": "2019-09-04T21:54:16+02:00"
+            "date_modified": "2019-09-04T21:55:25+02:00"
         },
         {
             "id": "https://petrenko.dk/hello-world.html",
