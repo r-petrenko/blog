@@ -10,8 +10,8 @@
     },
     "items": [
         {
-            "id": "https://petrenko.dk/azure-post-test.html",
-            "url": "https://petrenko.dk/azure-post-test.html",
+            "id": "https://petrenko.dk/azure-post-test/",
+            "url": "https://petrenko.dk/azure-post-test/",
             "title": "Azure post test",
             "summary": "asdfasdf",
             "content_html": "asdfasdf",
@@ -25,8 +25,8 @@
             "date_modified": "2019-09-04T21:55:25+02:00"
         },
         {
-            "id": "https://petrenko.dk/hello-world.html",
-            "url": "https://petrenko.dk/hello-world.html",
+            "id": "https://petrenko.dk/hello-world/",
+            "url": "https://petrenko.dk/hello-world/",
             "title": "Hello world",
             "summary": "Time to make change let i = 10; ",
             "content_html": "<p>Time to make change</p>\n<p><code>let i = 10;</code></p>\n<p> </p>\n<script src=\"https://gist.github.com/salesmandesk/045acfcf3f67630aca1ce8962d063910.js\"></script>",

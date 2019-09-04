@@ -3,7 +3,7 @@
     <title>petrenko.dk</title>
     <link href="https://petrenko.dk/feed.xml" rel="self" />
     <link href="https://petrenko.dk" />
-    <updated>2019-09-04T21:56:36+02:00</updated>
+    <updated>2019-09-04T21:58:37+02:00</updated>
     <author>
         <name>Roman Petrenko</name>
     </author>
@@ -14,8 +14,8 @@
         <author>
             <name>Roman Petrenko</name>
         </author>
-        <link href="https://petrenko.dk/azure-post-test.html"/>
-        <id>https://petrenko.dk/azure-post-test.html</id>
+        <link href="https://petrenko.dk/azure-post-test/"/>
+        <id>https://petrenko.dk/azure-post-test/</id>
 
         <updated>2019-09-04T21:55:25+02:00</updated>
             <summary>
@@ -36,8 +36,8 @@
         <author>
             <name>Roman Petrenko</name>
         </author>
-        <link href="https://petrenko.dk/hello-world.html"/>
-        <id>https://petrenko.dk/hello-world.html</id>
+        <link href="https://petrenko.dk/hello-world/"/>
+        <id>https://petrenko.dk/hello-world/</id>
 
         <updated>2019-09-04T21:28:24+02:00</updated>
             <summary>
