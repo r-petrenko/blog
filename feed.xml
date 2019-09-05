@@ -3,7 +3,7 @@
     <title>GetInstance(me)</title>
     <link href="https://petrenko.dk/feed.xml" rel="self" />
     <link href="https://petrenko.dk" />
-    <updated>2019-09-05T21:37:49+02:00</updated>
+    <updated>2019-09-05T21:40:29+02:00</updated>
     <author>
         <name>Roman</name>
     </author>
@@ -14,10 +14,10 @@
         <author>
             <name>Roman</name>
         </author>
-        <link href="https://petrenko.dk/hello-world/"/>
-        <id>https://petrenko.dk/hello-world/</id>
+        <link href="https://petrenko.dk/automatically-stepping-through-code/"/>
+        <id>https://petrenko.dk/automatically-stepping-through-code/</id>
 
-        <updated>2019-09-05T21:29:39+02:00</updated>
+        <updated>2019-09-05T21:40:25+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://petrenko.dk/media/posts/1/backlit-curve-dark-724712.jpg" alt="DebuggerStepThrough" />
