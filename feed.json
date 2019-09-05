@@ -5,6 +5,7 @@
     "home_page_url": "https://petrenko.dk",
     "feed_url": "https://petrenko.dk/feed.json",
     "user_comment": "",
+    "icon": "https://petrenko.dk/media/website/logo.png",
     "author": {
         "name": "Roman"
     },
