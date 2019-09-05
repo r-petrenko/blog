@@ -6,7 +6,7 @@
     "feed_url": "https://petrenko.dk/feed.json",
     "user_comment": "",
     "author": {
-        "name": "Roman Petrenko"
+        "name": "Roman"
     },
     "items": [
         {
@@ -15,7 +15,7 @@
             "title": "Tips and tricks",
             "image": "https://petrenko.dk/media/posts/3/will-turner-1536249-unsplash.jpg",
             "author": {
-                "name": "Roman Petrenko"
+                "name": "Roman"
             },
             "tags": [
             ],
@@ -30,7 +30,7 @@
             "content_html": "asdfasdf",
             "image": "https://petrenko.dk/media/posts/2/brennan-burling-1473464-unsplash-2xl.jpg",
             "author": {
-                "name": "Roman Petrenko"
+                "name": "Roman"
             },
             "tags": [
             ],
@@ -44,7 +44,7 @@
             "summary": "Time to make change let i = 10; ",
             "content_html": "<p>Time to make change</p>\n<p><code>let i = 10;</code></p>\n<p> </p>\n<script src=\"https://gist.github.com/salesmandesk/045acfcf3f67630aca1ce8962d063910.js\"></script>",
             "author": {
-                "name": "Roman Petrenko"
+                "name": "Roman"
             },
             "tags": [
             ],

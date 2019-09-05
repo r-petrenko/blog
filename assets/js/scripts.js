@@ -32,6 +32,7 @@ window.addEventListener('scroll', function (e) {
 	new_scroll_position = last_scroll_position;
 });
 
+
 // Dropdown menu
 (function (menuConfig) {
     /**
@@ -255,7 +256,7 @@ window.addEventListener('scroll', function (e) {
             menuOverlay.classList.toggle(config.hiddenElementClass);
             button.classList.toggle(config.openedMenuClass);
             button.setAttribute('aria-expanded', button.classList.contains(config.openedMenuClass));
-            document.documentElement.classList.add(config.noScrollClass);
+            document.documentElement.classList.toggle(config.noScrollClass);
         });
     }
 
@@ -345,21 +346,11 @@ window.addEventListener('scroll', function (e) {
 })(window.publiiThemeMenuConfig);
 
 // Load comments
-var comments = document.getElementById("js-comments");  
+var comments = document.querySelector(".js-post__comments-button");  
    if (comments) {
       comments.addEventListener("click", function() {   
           comments.classList.toggle("is-hidden");      
-             var container = document.getElementById("js-comments__inner");   
-             container.classList.toggle("is-visible");  
-      });
- }
-
-// Load comments
-var comments = document.getElementById("js-comments");  
-   if (comments) {
-      comments.addEventListener("click", function() {   
-          comments.classList.toggle("is-hidden");      
-             var container = document.getElementById("js-comments__inner");   
+             var container = document.querySelector(".js-post__comments-inner");   
              container.classList.toggle("is-visible");  
       });
  }
@@ -382,6 +373,28 @@ if (searchButton) {
         searchOverlay.classList.remove('expanded');
     });
 }
+
+
+// Cards share button
+let feedShareButton = document.querySelector('.js-feed__item-share');
+    let feedSharePopup = document.querySelector('.feed__item-share-popup');
+
+    if (feedShareButton) {
+        feedSharePopup.addEventListener('click', function (e) {
+            e.stopPropagation();
+        });
+
+        feedShareButton.addEventListener('click', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            feedSharePopup.classList.toggle('is-visible');
+        });
+
+        document.body.addEventListener('click', function () {
+            feedSharePopup.classList.remove('is-visible');
+        });
+    }
+
 
 // Share buttons pop-up
 (function () {
@@ -443,74 +456,106 @@ if (searchButton) {
     }
 })();
 
-// Back to Top - by CodyHouse.co on MIT license
-(function(){    
-	var backTop = document.getElementsByClassName('js-footer__bttop')[0],		
-		offset = 600,		
-		offsetOpacity = 1200,
-		scrollDuration = 50,
-		scrolling = false;
-	if( backTop ) {		
-		window.addEventListener("scroll", function(event) {
-			if( !scrolling ) {
-				scrolling = true;
-				(!window.requestAnimationFrame) ? setTimeout(checkBackToTop, 250) : window.requestAnimationFrame(checkBackToTop);
-			}
-		});
-		backTop.addEventListener('click', function(event) {
-			event.preventDefault();
-			(!window.requestAnimationFrame) ? window.scrollTo(0, 0) : scrollTop(scrollDuration);
-		});
-	}
+// Newsletter popup
+(function() {
+    var newsletter_submit = document.querySelector('.newsletter-popup__submit');
+    var newsletter = document.querySelector('.newsletter-popup');
+    if (!newsletter) { 
+        return false;  
+    }
+    var showOnScroll = newsletter.getAttribute('data-show-on-scroll');
+    var showAfterTime = newsletter.getAttribute('data-show-after-time');
 
-	function checkBackToTop() {
-		var windowTop = window.scrollY || document.documentElement.scrollTop;
-		( windowTop > offset ) ? addClass(backTop, 'footer__bttop--show') : removeClass(backTop, 'footer__bttop--show', 'footer__bttop--fade-out');
-		( windowTop > offsetOpacity ) && addClass(backTop, 'footer__bttop--fade-out');
-		scrolling = false;
-	}
-	
-	function scrollTop(duration) {
-	    var start = window.scrollY || document.documentElement.scrollTop,
-	        currentTime = null;
-	        
-	    var animateScroll = function(timestamp){
-	    	if (!currentTime) currentTime = timestamp;        
-	        var progress = timestamp - currentTime;
-	        var val = Math.max(Math.easeInOutQuad(progress, start, -start, duration), 0);
-	        window.scrollTo(0, val);
-	        if(progress < duration) {
-	            window.requestAnimationFrame(animateScroll);
-	        }
-	    };
+    if (showOnScroll) {
+        showOnScroll = parseInt(showOnScroll, 10);
+    } else {
+        showOnScroll = false;
+    }
 
-	    window.requestAnimationFrame(animateScroll);
-	}
+    if (showAfterTime) {
+        showAfterTime = parseInt(showAfterTime, 10);
+    } else {
+        showAfterTime = false;
+    }
 
-	Math.easeInOutQuad = function (t, b, c, d) {
- 		t /= d/2;
-		if (t < 1) return c/2*t*t + b;
-		t--;
-		return -c/2 * (t*(t-2) - 1) + b;
-	};
-    
-	function hasClass(el, className) {
-	  	if (el.classList) return el.classList.contains(className);
-	  	else return !!el.className.match(new RegExp('(\\s|^)' + className + '(\\s|$)'));
-	}
-	function addClass(el, className) {
-		var classList = className.split(' ');
-	 	if (el.classList) el.classList.add(classList[0]);
-	 	else if (!hasClass(el, classList[0])) el.className += " " + classList[0];
-	 	if (classList.length > 1) addClass(el, classList.slice(1).join(' '));
-	}
-	function removeClass(el, className) {
-		var classList = className.split(' ');
-	  	if (el.classList) el.classList.remove(classList[0]);	
-	  	else if(hasClass(el, classList[0])) {
-	  		var reg = new RegExp('(\\s|^)' + classList[0] + '(\\s|$)');
-	  		el.className=el.className.replace(reg, ' ');
-	  	}
-	  	if (classList.length > 1) removeClass(el, classList.slice(1).join(' '));
-	}
+    function showNewsletterOnScroll (e) {
+        var position = window.scrollY;
+
+        if (position > showOnScroll && !newsletter.classList.contains('is-visible')) {
+                newsletter.classList.add('is-visible');
+        }
+    }
+
+    if (newsletter_submit) {
+        newsletter_submit.addEventListener('click', function () {
+            localStorage.setItem('newsletter-subscribe', 'true');
+        });
+
+        document.querySelector('.newsletter-popup__close').addEventListener('click', function (event) {
+            event.preventDefault();
+            localStorage.setItem('newsletter-subscribe', new Date().getTime());
+            newsletter.classList.remove('is-visible');
+
+            if (showOnScroll) {
+                window.removeEventListener('scroll', showNewsletterOnScroll);
+            }
+        });
+    }
+
+    // Newsletter display
+    if (
+        newsletter &&
+        localStorage.getItem('newsletter-subscribe') !== 'true' &&
+        (
+            !localStorage.getItem('newsletter-subscribe') ||
+            new Date().getTime() - parseInt(localStorage.getItem('newsletter-subscribe'), 10) > (1000 * 60 * 60 * 24 * 30)
+        )
+    ) {
+        if (showOnScroll) {
+            window.addEventListener('scroll', showNewsletterOnScroll);
+        }
+
+        if (showAfterTime) {
+            setTimeout(function () {
+                newsletter.classList.add('is-visible');
+            }, showAfterTime);
+        }
+    }
 })();
+
+// Reading scroll bar
+if (document.getElementById("js-postbar__progress")) { 
+    document.addEventListener(
+        "scroll",
+        function() {
+            var scrollTop = document.documentElement["scrollTop"] || document.body["scrollTop"];
+            var scrollBottom = (document.documentElement["scrollHeight"] || document.body["scrollHeight"]) - document.documentElement.clientHeight;
+            scrollPercent = scrollTop / scrollBottom * 100 + "%";
+            document.getElementById("js-postbar__progress").style.setProperty("--scroll", scrollPercent);
+        }, {
+            passive: true
+        }
+    );
+}
+
+
+// Post bar
+var n_scroll_position = 0;
+var l_scroll_position;
+var postbar = document.getElementById("js-post__bar");
+
+if (postbar) {
+    window.addEventListener('scroll', function (e) {
+        l_scroll_position = window.scrollY;
+
+        // Scrolling down
+        if (n_scroll_position < l_scroll_position && l_scroll_position > 300) {
+            postbar.classList.remove("is-hidden");
+            postbar.classList.add("is-visible");
+        }
+
+        if (l_scroll_position < 300) {
+            postbar.classList.remove("is-visible");
+        }   
+    });
+}
