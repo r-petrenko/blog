@@ -3,7 +3,7 @@
     <title>GetInstance(me)</title>
     <link href="https://petrenko.dk/feed.xml" rel="self" />
     <link href="https://petrenko.dk" />
-    <updated>2019-09-05T20:40:28+02:00</updated>
+    <updated>2019-09-05T21:26:09+02:00</updated>
     <author>
         <name>Roman</name>
     </author>
@@ -44,25 +44,27 @@
         </content>
     </entry>
     <entry>
-        <title>Hello world</title>
+        <title>Automatically stepping through code</title>
         <author>
             <name>Roman</name>
         </author>
         <link href="https://petrenko.dk/hello-world/"/>
         <id>https://petrenko.dk/hello-world/</id>
 
-        <updated>2019-09-04T21:28:24+02:00</updated>
+        <updated>2019-09-05T21:26:04+02:00</updated>
             <summary>
                 <![CDATA[
-                    Time to make change let i = 10; 
+                        <img src="https://petrenko.dk/media/posts/1/backlit-curve-dark-724712.jpg" alt="DebuggerStepThrough" />
+                    There are times when it is prefered to skip method from debugger. For such cases can be used System.Diagnostics.DebuggerStepThrough attribute [DebuggerStepThrough]. Visual Studio debugger will skip break points in method marked with [DebuggerStepThrough] even if F11 is pressed. [DebuggerStepThrough] can also be used to mark class as&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>Time to make change</p>
-<p><code>let i = 10;</code></p>
+                    <img src="https://petrenko.dk/media/posts/1/backlit-curve-dark-724712.jpg" alt="DebuggerStepThrough" />
+                <p>There are times when it is prefered to skip method from debugger. For such cases can be used <a href="https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.debuggerstepthroughattribute?redirectedfrom=MSDN&amp;view=netframework-4.8" target="_blank" rel="noopener noreferrer">System.Diagnostics.DebuggerStepThrough</a> attribute [DebuggerStepThrough]. Visual Studio debugger will skip break points in method marked with [DebuggerStepThrough] even if F11 is pressed. </p>
+<p class="p1">[DebuggerStepThrough] can also be used to mark class as well. In that case all methods in class will be skipped from debugger.</p>
+<p>. </p>
 <p> </p>
-<script src="https://gist.github.com/salesmandesk/045acfcf3f67630aca1ce8962d063910.js"></script>
             ]]>
         </content>
     </entry>

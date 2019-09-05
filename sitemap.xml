@@ -14,7 +14,11 @@
 </url>
 <url>
 <loc>https://petrenko.dk/hello-world/</loc>
-<lastmod>2019-09-04T21:28:24+02:00</lastmod>
+<lastmod>2019-09-05T21:26:04+02:00</lastmod>
+<image:image>
+<image:loc>https://petrenko.dk/media/posts/1/backlit-curve-dark-724712.jpg</image:loc>
+<image:title><![CDATA[DebuggerStepThrough]]></image:title>
+</image:image>
 </url>
 <url>
 <loc>https://petrenko.dk/tips-and-tricks/</loc>
