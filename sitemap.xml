@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="https://petrenko.dk/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://blog.petrenko.dk/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
-<loc>https://petrenko.dk/</loc>
+<loc>https://blog.petrenko.dk/</loc>
 </url>
 <url>
-<loc>https://petrenko.dk/automatically-stepping-through-code/</loc>
+<loc>https://blog.petrenko.dk/automatically-stepping-through-code/</loc>
 <lastmod>2019-09-05T21:40:25+02:00</lastmod>
 <image:image>
-<image:loc>https://petrenko.dk/media/posts/1/backlit-curve-dark-724712.jpg</image:loc>
+<image:loc>https://blog.petrenko.dk/media/posts/1/backlit-curve-dark-724712.jpg</image:loc>
 <image:title><![CDATA[DebuggerStepThrough]]></image:title>
 </image:image>
+</url>
+<url>
+<loc>https://blog.petrenko.dk/common-pitfalls-when-using-c-async/</loc>
+<lastmod>2019-11-16T20:40:03+01:00</lastmod>
+</url>
+<url>
+<loc>https://blog.petrenko.dk/custom-exceptions-best-prectices/</loc>
+<lastmod>2019-11-15T19:34:49+01:00</lastmod>
+</url>
+<url>
+<loc>https://blog.petrenko.dk/how-to-do-good-pull-request/</loc>
+<lastmod>2020-02-13T21:53:49+01:00</lastmod>
+</url>
+<url>
+<loc>https://blog.petrenko.dk/stack-vs-heap-explained/</loc>
+<lastmod>2019-11-15T19:07:39+01:00</lastmod>
 </url>
 </urlset>
