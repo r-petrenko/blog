@@ -3,78 +3,12 @@
     <title>GetInstance(me)</title>
     <link href="https://blog.petrenko.dk/feed.xml" rel="self" />
     <link href="https://blog.petrenko.dk" />
-    <updated>2021-02-06T22:12:00+01:00</updated>
+    <updated>2021-02-06T22:13:25+01:00</updated>
     <author>
         <name>Roman</name>
     </author>
     <id>https://blog.petrenko.dk</id>
 
-    <entry>
-        <title>How to do good Pull Request?</title>
-        <author>
-            <name>Roman</name>
-        </author>
-        <link href="https://blog.petrenko.dk/how-to-do-good-pull-request/"/>
-        <id>https://blog.petrenko.dk/how-to-do-good-pull-request/</id>
-
-        <updated>2020-02-13T21:53:49+01:00</updated>
-            <summary></summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>Custom exceptions best prectices</title>
-        <author>
-            <name>Roman</name>
-        </author>
-        <link href="https://blog.petrenko.dk/custom-exceptions-best-prectices/"/>
-        <id>https://blog.petrenko.dk/custom-exceptions-best-prectices/</id>
-
-        <updated>2019-11-15T19:34:49+01:00</updated>
-            <summary></summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>Stack vs Heap explained</title>
-        <author>
-            <name>Roman</name>
-        </author>
-        <link href="https://blog.petrenko.dk/stack-vs-heap-explained/"/>
-        <id>https://blog.petrenko.dk/stack-vs-heap-explained/</id>
-
-        <updated>2019-11-15T19:07:39+01:00</updated>
-            <summary></summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>Common pitfalls when using c# async</title>
-        <author>
-            <name>Roman</name>
-        </author>
-        <link href="https://blog.petrenko.dk/common-pitfalls-when-using-c-async/"/>
-        <id>https://blog.petrenko.dk/common-pitfalls-when-using-c-async/</id>
-
-        <updated>2019-11-16T20:40:03+01:00</updated>
-            <summary>
-                <![CDATA[
-                    Never use Task.Wait() or Task.Result() Always use await If synchronous, .GetAwater().GetResult() it is still blocking operation, but it will return your exception Avoid "return await"
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <h2 id="mcetoc_1dpo5iikp0">Never use <a href="https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task.wait?view=netframework-4.8" target="_blank" rel="noopener noreferrer">Task.Wait()</a> or Task.Result()</h2>
-<p> </p>
-<p>Always use <strong>await</strong> </p>
-<p>If synchronous, <strong>.GetAwater().GetResult()</strong> it is still blocking operation, but it will return your exception</p>
-<ul>
-<li>Never use async void</li>
-<li>Async cost you 100</li>
-<li>ConfigureAwate(false)</li>
-</ul>
-<p> </p>
-<p>Avoid "return await"</p>
-            ]]>
-        </content>
-    </entry>
     <entry>
         <title>Automatically stepping through code</title>
         <author>
