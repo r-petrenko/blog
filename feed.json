@@ -2,17 +2,17 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "GetInstance(me)",
     "description": "",
-    "home_page_url": "https://blog.petrenko.dk",
-    "feed_url": "https://blog.petrenko.dk/feed.json",
+    "home_page_url": "",
+    "feed_url": "/feed.json",
     "user_comment": "",
-    "icon": "https://blog.petrenko.dk/media/website/logo.png",
+    "icon": "/media/website/logo.png",
     "author": {
         "name": "Roman"
     },
     "items": [
         {
-            "id": "https://blog.petrenko.dk/how-to-do-good-pull-request/",
-            "url": "https://blog.petrenko.dk/how-to-do-good-pull-request/",
+            "id": "/how-to-do-good-pull-request/",
+            "url": "/how-to-do-good-pull-request/",
             "title": "How to do good Pull Request?",
             "author": {
                 "name": "Roman"
@@ -23,8 +23,8 @@
             "date_modified": "2020-02-13T21:53:49+01:00"
         },
         {
-            "id": "https://blog.petrenko.dk/custom-exceptions-best-prectices/",
-            "url": "https://blog.petrenko.dk/custom-exceptions-best-prectices/",
+            "id": "/custom-exceptions-best-prectices/",
+            "url": "/custom-exceptions-best-prectices/",
             "title": "Custom exceptions best prectices",
             "author": {
                 "name": "Roman"
@@ -35,8 +35,8 @@
             "date_modified": "2019-11-15T19:34:49+01:00"
         },
         {
-            "id": "https://blog.petrenko.dk/stack-vs-heap-explained/",
-            "url": "https://blog.petrenko.dk/stack-vs-heap-explained/",
+            "id": "/stack-vs-heap-explained/",
+            "url": "/stack-vs-heap-explained/",
             "title": "Stack vs Heap explained",
             "author": {
                 "name": "Roman"
@@ -47,8 +47,8 @@
             "date_modified": "2019-11-15T19:07:39+01:00"
         },
         {
-            "id": "https://blog.petrenko.dk/common-pitfalls-when-using-c-async/",
-            "url": "https://blog.petrenko.dk/common-pitfalls-when-using-c-async/",
+            "id": "/common-pitfalls-when-using-c-async/",
+            "url": "/common-pitfalls-when-using-c-async/",
             "title": "Common pitfalls when using c# async",
             "summary": "Never use Task.Wait() or Task.Result() Always use await If synchronous, .GetAwater().GetResult() it is still blocking operation, but it will return your exception Avoid \"return await\"",
             "content_html": "<h2 id=\"mcetoc_1dpo5iikp0\">Never use <a href=\"https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task.wait?view=netframework-4.8\" target=\"_blank\" rel=\"noopener noreferrer\">Task.Wait()</a> or Task.Result()</h2>\n<p> </p>\n<p>Always use <strong>await</strong> </p>\n<p>If synchronous, <strong>.GetAwater().GetResult()</strong> it is still blocking operation, but it will return your exception</p>\n<ul>\n<li>Never use async void</li>\n<li>Async cost you 100</li>\n<li>ConfigureAwate(false)</li>\n</ul>\n<p> </p>\n<p>Avoid \"return await\"</p>",
@@ -61,12 +61,12 @@
             "date_modified": "2019-11-16T20:40:03+01:00"
         },
         {
-            "id": "https://blog.petrenko.dk/automatically-stepping-through-code/",
-            "url": "https://blog.petrenko.dk/automatically-stepping-through-code/",
+            "id": "/automatically-stepping-through-code/",
+            "url": "/automatically-stepping-through-code/",
             "title": "Automatically stepping through code",
             "summary": "There are times when it is prefered to skip method from debugger. For such cases can be used System.Diagnostics.DebuggerStepThrough attribute [DebuggerStepThrough]. Visual Studio debugger will skip break points in method marked with [DebuggerStepThrough] even if F11 is pressed. [DebuggerStepThrough] can also be used to mark class as&hellip;",
             "content_html": "<p>There are times when it is prefered to skip method from debugger. For such cases can be used <a href=\"https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.debuggerstepthroughattribute?redirectedfrom=MSDN&amp;view=netframework-4.8\" target=\"_blank\" rel=\"noopener noreferrer\">System.Diagnostics.DebuggerStepThrough</a> attribute [DebuggerStepThrough]. Visual Studio debugger will skip break points in method marked with [DebuggerStepThrough] even if F11 is pressed. </p>\n<p class=\"p1\">[DebuggerStepThrough] can also be used to mark class as well. In that case all methods in class will be skipped from debugger.</p>\n<p>. </p>\n<p> </p>",
-            "image": "https://blog.petrenko.dk/media/posts/1/backlit-curve-dark-724712.jpg",
+            "image": "/media/posts/1/backlit-curve-dark-724712.jpg",
             "author": {
                 "name": "Roman"
             },
