@@ -5,7 +5,6 @@
     "home_page_url": "https://blog.petrenko.dk",
     "feed_url": "https://blog.petrenko.dk/feed.json",
     "user_comment": "",
-    "icon": "https://blog.petrenko.dk/media/website/logo.png",
     "author": {
         "name": "Roman"
     },
@@ -16,14 +15,14 @@
             "title": "Automatically stepping through code",
             "summary": "There are times when it is prefered to skip method from debugger. For such cases can be used System.Diagnostics.DebuggerStepThrough attribute [DebuggerStepThrough]. Visual Studio debugger will skip break points in method marked with [DebuggerStepThrough] even if F11 is pressed. [DebuggerStepThrough] can also be used to mark class as&hellip;",
             "content_html": "<p>There are times when it is prefered to skip method from debugger. For such cases can be used <a href=\"https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.debuggerstepthroughattribute?redirectedfrom=MSDN&amp;view=netframework-4.8\" target=\"_blank\" rel=\"noopener noreferrer\">System.Diagnostics.DebuggerStepThrough</a> attribute [DebuggerStepThrough]. Visual Studio debugger will skip break points in method marked with [DebuggerStepThrough] even if F11 is pressed. </p>\n<p class=\"p1\">[DebuggerStepThrough] can also be used to mark class as well. In that case all methods in class will be skipped from debugger.</p>\n<p>. </p>\n<p> </p>",
-            "image": "https://blog.petrenko.dk/media/posts/1/backlit-curve-dark-724712.jpg",
+            "image": "https://blog.petrenko.dk/media/posts/1/campbell-boulanger-348386-unsplash-xxxl.jpg",
             "author": {
                 "name": "Roman"
             },
             "tags": [
             ],
             "date_published": "2019-08-11T20:48:56+02:00",
-            "date_modified": "2019-09-05T21:40:25+02:00"
+            "date_modified": "2021-02-07T22:13:03+01:00"
         }
     ]
 }
