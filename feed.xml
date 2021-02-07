@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>GetInstance(me)</title>
+    <title>getInstance@me</title>
     <link href="https://blog.petrenko.dk/feed.xml" rel="self" />
     <link href="https://blog.petrenko.dk" />
-    <updated>2021-02-07T22:15:14+01:00</updated>
+    <updated>2021-02-07T22:16:22+01:00</updated>
     <author>
         <name>Roman</name>
     </author>

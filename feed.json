@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "GetInstance(me)",
+    "title": "getInstance@me",
     "description": "",
     "home_page_url": "https://blog.petrenko.dk",
     "feed_url": "https://blog.petrenko.dk/feed.json",
